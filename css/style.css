@@ -1,0 +1,2059 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*PALETA DE COLORES
+Texto Header: #CFFF00
+Fondo Header: #000000
+Banner: #ffffff
+Texto Main: #000000
+Fondo Main: #ffffff
+Texto Footer: #000000
+Fondo Footer: #CFFF00
+Contacto: #f5f5f5;
+*/
+
+/*Typo Externa*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+/*Propiedades del Navegador - Nav*/
+
+header {
+    background-color: #000000;
+    width: 100%;
+    height: 9.375rem;
+}
+
+header nav {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.seccion-home {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-nav img {
+    width: 15.625rem;
+    height: 4.6875rem;
+}
+
+.seccion-nav {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.pages {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 3.125rem;
+    margin-right: 40px;
+}
+
+.pages li {
+    text-align: center;
+    list-style-type: none;
+}
+
+
+.pages li a {
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.boton-nav {
+    background-color: #CFFF00;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 12.5rem;
+    height: 2.1875rem;
+    list-style-type: none;
+}
+
+
+/*Propiedades del Contenido - Main*/
+
+/* 1ra. Sección Banner */
+.banner-principal {
+    background-image: url("../assets/FlyHome-BannerPrincipal-optimizada-niveldios2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: left;
+    width: 100%;
+    height: 37.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding-left: 6.25rem;
+}
+
+.grafica-banner {
+    font-style: italic;
+    font-weight: normal;
+}
+
+/* 2da. Sección Servicios */
+.seccion-servicios {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenerdor-intro {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-titulo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro-texto {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+    height: 60%;
+    padding: 0% 6.25rem;
+}
+
+.intro-texto strong {
+    font-style: italic;
+}
+
+.contenedor-cards {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card {
+    width: 12.5rem;
+    height: 11.25rem;
+    border: black solid 2px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 8.125rem;
+    height: 8.125rem;
+}
+
+.card h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* 3ra. Sección Por que elegirnos */
+.seccion-elegirnos {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    background-color: #CFFF00;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo {
+    height: 30%;
+    gap: .5rem;
+}
+
+.titulo h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.info {
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.info p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 24px;
+    width: 40.625rem;
+    padding: 1.25rem;
+}
+
+.info p strong {
+    font-style: italic;
+}
+
+.info img {
+    width: 290px;
+    height: 240px;
+}
+
+/* 4ta. Sección Equipo */
+
+.seccion-equipo {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-titulo {
+    width: 100%;
+    height: 20%;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.card-titulo h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-miembros {
+    width: 100%;
+    height: 80%;
+    padding: 3.125rem 6.25rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.card-miembros span {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.card-miembros span div {
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .3125rem;
+}
+
+.card-miembros span div h3 {
+    font-weight: bold;
+}
+
+.card-miembros span div p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.card-retrato {
+    width: 10.625rem;
+    height: 10.625rem;
+
+}
+
+/* 5ta. Contactanos */
+.seccion-contacto {
+    background-color: #f5f5f5;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    height: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.seccion-contacto h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.seccion-contacto div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65%;
+}
+
+.boton-contactar {
+    background-color: #000000;
+    border: none;
+    border-radius: .625rem;
+    padding: 20px 30px;
+}
+
+.boton-contactar a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #CFFF00;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* 6ta. Beneficios */
+.seccion-beneficios {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.beneficios-titulo {
+    height: 30%;
+    gap: .5rem;
+}
+
+.beneficios-titulo h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.beneficios-titulo h2 strong {
+    font-weight: bolder;
+}
+
+.list-ventajas {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.list-ventajas li {
+    font-size: 16px;
+    list-style: none;
+    line-height: 24px;
+}
+
+.list-ventajas div {
+    align-self: center;
+}
+
+.paisaje-home2 {
+    width: 370px;
+    height: 220px;
+}
+
+/* footer */
+
+.nav-footer {
+    width: 100%;
+    height: 9.375rem;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-footer {
+    width: 25%;
+    height: 100%;
+}
+
+.logo-footer a img {
+    width: 15.625rem;
+    height: 4.6875rem;
+}
+
+.redes {
+    width: 75%;
+    height: 100%;
+}
+
+.redes ul {
+    list-style: none;
+    gap: 2.125rem;
+    width: 100%;
+    height: 100%;
+    margin-right: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.redes-sociales {
+    height: 2.5rem;
+    width: 1.875rem;
+}
+
+
+
+/* PAGINA - CIUDADANIA ITALIANA */
+
+/* 1ª Sección*/
+.intro-ciudadania {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.img-intro {
+    height: 100%;
+    width: 40%;
+}
+
+.img-intro img {
+    width: 80%;
+    height: 100%;
+}
+
+.texto-intro {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-intro h2 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.texto-intro h2 strong {
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.texto-intro p {
+    padding-top: 1.875rem;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 25px;
+
+}
+
+/* 2ª Sección*/
+
+.contenido-ciudadania {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    width: 100%;
+    height: 31.25rem;
+    margin-top: 1.875rem;
+}
+
+.intro-contenido {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-contenido {
+    font-size: 30px;
+    width: 100%;
+    height: 30%;
+}
+
+.parrafo-contenido {
+    width: 100%;
+    height: 70%;
+    padding: 0% 6.25rem;
+    text-align: justify;
+}
+
+.contenido-cards {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contenido-cards div {
+    width: 39%;
+    height: 90%;
+}
+
+.contenido-cards div h3 {
+    background-color: #CFFF00;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenido-cards div p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    padding-top: .625rem;
+}
+
+/* 3ª Sección*/
+
+.contenido-final {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    height: 12.5rem;
+    padding: 0% 6.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.contenido-final h3 {
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contenido-final p {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    margin-top: .625rem;
+
+}
+
+@media (max-width: 1024px) {
+
+    /* 1024 - Navegador */
+
+    header {
+        background-color: #000000;
+        width: 100%;
+        height: 9.375rem;
+    }
+
+    header nav {
+        width: 100%;
+        height: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion-home {
+        width: 100%;
+        height: 55%;
+        margin: 0%;
+    }
+
+    .logo-nav img {
+        width: 12.5rem;
+        height: 3.75rem;
+    }
+
+    .seccion-nav {
+        width: 100%;
+        height: 45%;
+    }
+
+    .pages {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin: 0%;
+    }
+
+    /* 1024 - footer */
+
+    .nav-footer {
+        width: 100%;
+        height: 9.375rem;
+        background-color: #000000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-footer {
+        width: 25%;
+        height: 100%;
+    }
+
+    .logo-footer a img {
+        width: 12.5rem;
+        height: 3.75rem;
+    }
+
+    .redes {
+        width: 75%;
+        height: 100%;
+    }
+
+    .redes ul {
+        list-style: none;
+        gap: 2.125rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .redes-sociales {
+        height: 2.25rem;
+        width: 1.6875rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* 768 - Navegador */
+
+    header {
+        background-color: #000000;
+        width: 100%;
+        height: 12.5rem;
+    }
+
+    header nav {
+        width: 100%;
+        height: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion-home {
+        width: 100%;
+        height: 30%;
+    }
+
+    .logo-nav img {
+        width: 15.625rem;
+        height: 4.6875rem;
+    }
+
+    .seccion-nav {
+        width: 100%;
+        height: 70%;
+    }
+
+    .pages {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .3125rem;
+    }
+
+    .boton-nav {
+        font-size: 16px;
+        width: 11.25rem;
+        height: .3125rem;
+    }
+
+    /* 768 - Seccion Servicios */
+
+    .card {
+        width: 10rem;
+        height: 9rem;
+        border: black solid 2px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .card img {
+        width: 6.25rem;
+        height: 6.25rem;
+    }
+
+    /* 768 - Seccion Elegirnos */
+
+    .seccion-elegirnos {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        background-color: #CFFF00;
+        width: 100%;
+        height: 43.75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo {
+        height: 20%;
+        gap: .5rem;
+    }
+
+    .info {
+        width: 100%;
+        height: 80%;
+    }
+
+    .info img {
+        width: 18.125rem;
+        height: 15rem;
+    }
+
+    /* 768 - Seccion Equipo */
+
+    .seccion-equipo {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        width: 100%;
+        height: 43.75rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-titulo {
+        height: 15%;
+    }
+
+    .card-miembros {
+        width: 100%;
+        height: 85%;
+        padding: 3.125rem 6.25rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-miembros article {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-retrato {
+        width: 9.5625rem;
+        height: 9.5625rem;
+    }
+
+    /* 768 - Seccion Beneficios */
+    .seccion-beneficios {
+        height: 43.75rem;
+    }
+
+    .beneficios-titulo {
+        height: 20%;
+        gap: .5rem;
+    }
+
+    .list-ventajas {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    /* 768 - footer */
+
+    .nav-footer {
+        width: 100%;
+        height: 9.375rem;
+        background-color: #000000;
+    }
+
+    .logo-footer {
+        width: 30%;
+        height: 100%;
+    }
+
+    .logo-footer a img {
+        width: 12.5rem;
+        height: 3.75rem;
+    }
+
+    .redes {
+        width: 70%;
+        height: 100%;
+    }
+
+}
+
+@media (max-width: 425px) {
+
+
+    /* 425 - Navegador */
+
+    header {
+        background-color: #000000;
+        width: 100%;
+        height: 9.375rem;
+    }
+
+    header nav {
+        width: 100%;
+        height: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion-home {
+        width: 100%;
+        height: 30%;
+    }
+
+    .logo-nav img {
+        width: 7.8125rem;
+        height: 2.3125rem;
+    }
+
+    .seccion-nav {
+        width: 100%;
+        height: 70%;
+    }
+
+    .pages {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .125rem;
+    }
+
+    .boton-nav {
+        font-size: 10px;
+        width: 7.5rem;
+        height: 1.3125rem;
+    }
+
+    /* 425 - Banner Principal */
+
+    .banner-principal {
+        font-size: 18px;
+        line-height: 26px;
+        width: 100%;
+        height: 18.75rem;
+        padding: 1.25rem;
+    }
+
+    /* 425 - Seccion Servicios */
+
+    .seccion-servicios {
+        height: 34.375rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerdor-intro {
+        width: 100%;
+        height: 30%;
+    }
+
+    .intro-titulo {
+        font-size: 14px;
+        height: 30%;
+
+    }
+
+    .intro-texto {
+        font-size: 10px;
+        line-height: 14px;
+        height: 70%;
+        padding: 0% 1.875rem;
+    }
+
+    .contenedor-cards {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        width: 6.25rem;
+        height: 5.625rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .card img {
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+
+    .card h4 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /* 425 - Seccion Elegirnos */
+
+    .seccion-elegirnos {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        background-color: #CFFF00;
+        width: 100%;
+        height: 28.125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo {
+        height: 15%;
+        gap: .0625rem;
+        padding: 0% 1.875rem;
+    }
+
+    .titulo h2 {
+        font-size: 14px;
+    }
+
+    .info {
+        width: 100%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .info p {
+        font-size: 10px;
+        line-height: 14px;
+        width: 18.75rem;
+    }
+
+    .info img {
+        width: 9.0625rem;
+        height: 7.5rem;
+    }
+
+    /* 425 - Seccion Equipo */
+
+    .seccion-equipo {
+        width: 100%;
+        height: 28.125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card-titulo {
+        height: 10%;
+        width: 100%;
+    }
+
+    .card-titulo h2 {
+        font-size: 14px;
+    }
+
+    .card-miembros {
+        width: 100%;
+        height: 90%;
+        gap: .625rem;
+        padding: 1.25rem;
+    }
+
+    .card-miembros span {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .card-miembros span div {
+        width: 250px;
+        height: 200px;
+        gap: .125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card-miembros span div h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .card-miembros span div p {
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    .card-retrato {
+        width: 6.25rem;
+        height: 6.25rem;
+
+    }
+
+    /* 425 - Seccion Contacto */
+
+    .seccion-contacto {
+        font-size: 14px;
+        width: 100%;
+        height: 6.25rem;
+    }
+
+    .seccion-contacto h2 {
+        font-size: 14px;
+        height: 50%;
+    }
+
+    .seccion-contacto div {
+        height: 50%;
+    }
+
+    .boton-contactar {
+        padding: 7px 17px;
+    }
+
+    .boton-contactar a {
+        font-size: 12px;
+    }
+
+    /* 425 - Seccion Beneficios */
+    .seccion-beneficios {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .beneficios-titulo {
+        height: 20%;
+        gap: .5rem;
+    }
+
+    .beneficios-titulo h2 {
+        font-size: 14px;
+    }
+
+
+    .list-ventajas {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .list-ventajas li {
+        font-size: 10px;
+        line-height: 14px;
+        width: 16.875rem;
+        text-align: justify;
+    }
+
+    .list-ventajas div {
+        align-self: center;
+    }
+
+    .paisaje-home2 {
+        width: 185px;
+        height: 110px;
+    }
+
+    /* 425 - footer */
+
+    .nav-footer {
+        width: 100%;
+        height: 5rem;
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-footer {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .logo-footer a img {
+        width: 7.8125rem;
+        height: 2.3125rem;
+    }
+    
+    .redes {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .redes ul {
+        list-style: none;
+        gap: .9375rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .redes-sociales {
+        height: 1.5rem;
+        width: 1.125rem;
+    }
+    
+}
+
+
+
+
+@media (max-width: 375px) {
+
+    /* 375 - Navegador */
+
+    header {
+        background-color: #000000;
+        width: 100%;
+        height: 9.375rem;
+    }
+
+    header nav {
+        width: 100%;
+        height: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion-home {
+        width: 100%;
+        height: 30%;
+    }
+
+    .logo-nav img {
+        width: 7.8125rem;
+        height: 2.3125rem;
+    }
+
+    .seccion-nav {
+        width: 100%;
+        height: 70%;
+    }
+
+    .pages {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .125rem;
+    }
+
+    .boton-nav {
+        font-size: 10px;
+        width: 7.5rem;
+        height: 1.3125rem;
+    }
+
+    /* 375 - Banner Principal */
+
+    .banner-principal {
+        font-size: 18px;
+        line-height: 26px;
+        width: 100%;
+        height: 18.75rem;
+        padding: 1.25rem;
+    }
+
+    /* 375 - Seccion Servicios */
+
+    .seccion-servicios {
+        height: 34.375rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerdor-intro {
+        width: 100%;
+        height: 30%;
+    }
+
+    .intro-titulo {
+        font-size: 14px;
+        height: 30%;
+
+    }
+
+    .intro-texto {
+        font-size: 10px;
+        line-height: 14px;
+        height: 70%;
+        padding: 0% 1.875rem;
+    }
+
+    .contenedor-cards {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        width: 6.25rem;
+        height: 5.625rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .card img {
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+
+    .card h4 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /* 375 - Seccion Elegirnos */
+
+    .seccion-elegirnos {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        background-color: #CFFF00;
+        width: 100%;
+        height: 28.125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo {
+        height: 15%;
+        gap: .0625rem;
+        padding: 0% 1.875rem;
+    }
+
+    .titulo h2 {
+        font-size: 14px;
+    }
+
+    .info {
+        width: 100%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .info p {
+        font-size: 10px;
+        line-height: 14px;
+        width: 18.75rem;
+    }
+
+    .info img {
+        width: 9.0625rem;
+        height: 7.5rem;
+    }
+
+    /* 375 - Seccion Equipo */
+
+    .seccion-equipo {
+        width: 100%;
+        height: 28.125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card-titulo {
+        height: 10%;
+        width: 100%;
+    }
+
+    .card-titulo h2 {
+        font-size: 14px;
+    }
+
+    .card-miembros {
+        width: 100%;
+        height: 90%;
+        gap: .625rem;
+        padding: 1.25rem;
+    }
+
+    .card-miembros span {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .card-miembros span div {
+        width: 250px;
+        height: 200px;
+        gap: .125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card-miembros span div h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .card-miembros span div p {
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    .card-retrato {
+        width: 6.25rem;
+        height: 6.25rem;
+
+    }
+
+    /* 375 - Seccion Contacto */
+
+    .seccion-contacto {
+        font-size: 14px;
+        width: 100%;
+        height: 6.25rem;
+    }
+
+    .seccion-contacto h2 {
+        font-size: 14px;
+        height: 50%;
+    }
+
+    .seccion-contacto div {
+        height: 50%;
+    }
+
+    .boton-contactar {
+        padding: 7px 17px;
+    }
+
+    .boton-contactar a {
+        font-size: 12px;
+    }
+
+    /* 375 - Seccion Beneficios */
+    .seccion-beneficios {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .beneficios-titulo {
+        height: 20%;
+        gap: .5rem;
+    }
+
+    .beneficios-titulo h2 {
+        font-size: 14px;
+    }
+
+
+    .list-ventajas {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .list-ventajas li {
+        font-size: 10px;
+        line-height: 14px;
+        width: 16.875rem;
+        text-align: justify;
+    }
+
+    .list-ventajas div {
+        align-self: center;
+    }
+
+    .paisaje-home2 {
+        width: 185px;
+        height: 110px;
+    }
+
+    /* 375 - footer */
+
+    .nav-footer {
+        width: 100%;
+        height: 5rem;
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-footer {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .logo-footer a img {
+        width: 7.8125rem;
+        height: 2.3125rem;
+    }
+    
+    .redes {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .redes ul {
+        list-style: none;
+        gap: .9375rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .redes-sociales {
+        height: 1.5rem;
+        width: 1.125rem;
+    }
+    
+}
+
+
+
+@media (max-width: 320px) {
+
+
+    /* 320 - Navegador */
+
+    header {
+        background-color: #000000;
+        width: 100%;
+        height: 9.375rem;
+    }
+
+    header nav {
+        width: 100%;
+        height: 100%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .seccion-home {
+        width: 100%;
+        height: 30%;
+    }
+
+    .logo-nav img {
+        width: 7.8125rem;
+        height: 2.3125rem;
+    }
+
+    .seccion-nav {
+        width: 100%;
+        height: 70%;
+    }
+
+    .pages {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: .125rem;
+    }
+
+    .boton-nav {
+        font-size: 10px;
+        width: 7.5rem;
+        height: 1.3125rem;
+    }
+
+    /* 320 - Banner Principal */
+
+    .banner-principal {
+        font-size: 18px;
+        line-height: 26px;
+        width: 100%;
+        height: 18.75rem;
+        padding: 1.25rem;
+    }
+
+    /* 320 - Seccion Servicios */
+
+    .seccion-servicios {
+        height: 34.375rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenerdor-intro {
+        width: 100%;
+        height: 30%;
+    }
+
+    .intro-titulo {
+        font-size: 14px;
+        height: 30%;
+
+    }
+
+    .intro-texto {
+        font-size: 10px;
+        line-height: 14px;
+        height: 70%;
+        padding: 0% 1.875rem;
+    }
+
+    .contenedor-cards {
+        width: 100%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .card {
+        width: 6.25rem;
+        height: 5.625rem;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .card img {
+        width: 3.125rem;
+        height: 3.125rem;
+    }
+
+    .card h4 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /* 320 - Seccion Elegirnos */
+
+    .seccion-elegirnos {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        background-color: #CFFF00;
+        width: 100%;
+        height: 28.125rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo {
+        height: 15%;
+        gap: .0625rem;
+        padding: 0% 1.875rem;
+    }
+
+    .titulo h2 {
+        font-size: 14px;
+    }
+
+    .info {
+        width: 100%;
+        height: 85%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .info p {
+        font-size: 10px;
+        line-height: 14px;
+        width: 18.75rem;
+    }
+
+    .info img {
+        width: 9.0625rem;
+        height: 7.5rem;
+    }
+
+    /* 320 - Seccion Equipo */
+
+    .seccion-equipo {
+        width: 100%;
+        height: 28.125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card-titulo {
+        height: 10%;
+        width: 100%;
+    }
+
+    .card-titulo h2 {
+        font-size: 14px;
+    }
+
+    .card-miembros {
+        width: 100%;
+        height: 90%;
+        gap: .625rem;
+        padding: 1.25rem;
+    }
+
+    .card-miembros span {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .card-miembros span div {
+        width: 250px;
+        height: 200px;
+        gap: .125rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .card-miembros span div h3 {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .card-miembros span div p {
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+    }
+
+    .card-retrato {
+        width: 6.25rem;
+        height: 6.25rem;
+
+    }
+
+    /* 320 - Seccion Contacto */
+
+    .seccion-contacto {
+        font-size: 14px;
+        width: 100%;
+        height: 6.25rem;
+    }
+
+    .seccion-contacto h2 {
+        font-size: 14px;
+        height: 50%;
+    }
+
+    .seccion-contacto div {
+        height: 50%;
+    }
+
+    .boton-contactar {
+        padding: 7px 17px;
+    }
+
+    .boton-contactar a {
+        font-size: 12px;
+    }
+
+    /* 320 - Seccion Beneficios */
+    .seccion-beneficios {
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        width: 100%;
+        height: 25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .beneficios-titulo {
+        height: 20%;
+        gap: .5rem;
+    }
+
+    .beneficios-titulo h2 {
+        font-size: 14px;
+    }
+
+
+    .list-ventajas {
+        width: 100%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .list-ventajas li {
+        font-size: 10px;
+        line-height: 14px;
+        width: 16.875rem;
+        text-align: justify;
+    }
+
+    .list-ventajas div {
+        align-self: center;
+    }
+
+    .paisaje-home2 {
+        width: 185px;
+        height: 110px;
+    }
+
+    /* 320 - footer */
+
+    .nav-footer {
+        width: 100%;
+        height: 5rem;
+        background-color: #000000;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo-footer {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .logo-footer a img {
+        width: 7.8125rem;
+        height: 2.3125rem;
+    }
+    
+    .redes {
+        width: 50%;
+        height: 100%;
+    }
+    
+    .redes ul {
+        list-style: none;
+        gap: .9375rem;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .redes-sociales {
+        height: 1.5rem;
+        width: 1.125rem;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* PAGINA - GUIA PASO A PASO */
+.imagenes-guia {
+    width: 330px;
+    height: 330px;
+}
+
+/* 1ra. Sección - Guia paso a paso*/
+
+.guia-primera-seccion {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.guia-primera-seccion h1 {
+    color: #CFFF00;
+    font-size: 250px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.guia-primera-seccion h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.guia-primera-seccion h2 span {
+    font-style: italic;
+}
+
+.guia-primera-seccion p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+/* 2da. Sección - Guia paso a paso*/
+.guia-segunda-seccion {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.guia-segunda-seccion h3 {
+    background-color: #CFFF00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.guia-segunda-seccion p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+/* 3ra. Sección - Guia paso a paso*/
+.guia-tercera-seccion {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.guia-tercera-seccion h3 {
+    background-color: #CFFF00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.guia-tercera-seccion p {
+    font-size: 14px;
+}
+
+.guia-tercera-seccion p strong {
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+}
+
+
+/* PAGINA - ASISTENCIA AL VIAJERO */
+
+.banner-asistencia-al-viajero {
+    background-image: url(../assets/banner-asistencia-al-viajero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: left;
+    height: 31.25rem;
+}
+
+.viajero-primera-seccion {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.viajero-primera-seccion h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.viajero-primera-seccion p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.seccion-lista-de-cobertura {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+}
+
+.seccion-lista-de-cobertura h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.seccion-banner-coberturas {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-weight: bold;
+}
+
+.seccion-banner-coberturas h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.seccion-banner-coberturas article {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.seccion-banner-coberturas article h4 {
+    background-color: #000000;
+    color: #CFFF00;
+    text-align: center;
+}
+
+.seccion-banner-coberturas article p {
+    background-color: #f5f5f5;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.seccion-banner-coberturas article a button {
+    background-color: #CFFF00;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.seccion-asesoramiento p {
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+
+/* PAGINA - CONTACTANOS */
+
+.formulario {
+    background-color: #CFFF00;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+.formulario h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.formulario form p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.boton-formulario {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+    width: 4.0625rem;
+    height: 1.875rem;
+}
+
+.ubicacion div h2 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
