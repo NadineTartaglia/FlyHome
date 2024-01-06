@@ -1031,7 +1031,7 @@ header nav {
         justify-content: space-evenly;
         align-items: center;
     }
-    
+
     .card-miembros span div {
         width: 250px;
         height: 200px;
@@ -1142,22 +1142,22 @@ header nav {
         align-items: center;
         justify-content: center;
     }
-    
+
     .logo-footer {
         width: 50%;
         height: 100%;
     }
-    
+
     .logo-footer a img {
         width: 7.8125rem;
         height: 2.3125rem;
     }
-    
+
     .redes {
         width: 50%;
         height: 100%;
     }
-    
+
     .redes ul {
         list-style: none;
         gap: .9375rem;
@@ -1167,12 +1167,12 @@ header nav {
         justify-content: center;
         align-items: center;
     }
-    
+
     .redes-sociales {
         height: 1.5rem;
         width: 1.125rem;
     }
-    
+
 }
 
 
@@ -1366,7 +1366,7 @@ header nav {
         justify-content: space-evenly;
         align-items: center;
     }
-    
+
     .card-miembros span div {
         width: 250px;
         height: 200px;
@@ -1477,22 +1477,22 @@ header nav {
         align-items: center;
         justify-content: center;
     }
-    
+
     .logo-footer {
         width: 50%;
         height: 100%;
     }
-    
+
     .logo-footer a img {
         width: 7.8125rem;
         height: 2.3125rem;
     }
-    
+
     .redes {
         width: 50%;
         height: 100%;
     }
-    
+
     .redes ul {
         list-style: none;
         gap: .9375rem;
@@ -1502,12 +1502,12 @@ header nav {
         justify-content: center;
         align-items: center;
     }
-    
+
     .redes-sociales {
         height: 1.5rem;
         width: 1.125rem;
     }
-    
+
 }
 
 
@@ -1701,7 +1701,7 @@ header nav {
         justify-content: space-evenly;
         align-items: center;
     }
-    
+
     .card-miembros span div {
         width: 250px;
         height: 200px;
@@ -1812,22 +1812,22 @@ header nav {
         align-items: center;
         justify-content: center;
     }
-    
+
     .logo-footer {
         width: 50%;
         height: 100%;
     }
-    
+
     .logo-footer a img {
         width: 7.8125rem;
         height: 2.3125rem;
     }
-    
+
     .redes {
         width: 50%;
         height: 100%;
     }
-    
+
     .redes ul {
         list-style: none;
         gap: .9375rem;
@@ -1837,12 +1837,12 @@ header nav {
         justify-content: center;
         align-items: center;
     }
-    
+
     .redes-sociales {
         height: 1.5rem;
         width: 1.125rem;
     }
-    
+
 }
 
 
@@ -2024,36 +2024,145 @@ header nav {
 /* PAGINA - CONTACTANOS */
 
 .formulario {
-    background-color: #CFFF00;
     font-family: 'Montserrat', sans-serif;
     color: #000000;
-    text-align: center;
+    width: 100%;
+    height: 43.75rem;
+    display: grid;
+    grid-template-columns: repeat(4, 15.625rem);
+    grid-template-rows: 9.375rem 5rem 12.5rem 3.125rem 9.375rem;
+    grid-template-areas:
+        "form-titulo form-titulo form-titulo form-titulo"
+        "box-data box-data box-email box-email"
+        "box-consulta box-consulta box-consulta box-consulta"
+        "form-suscrip form-suscrip form-suscrip form-suscrip"
+        "boton-enviar boton-enviar boton-enviar boton-enviar"
+    ;
+    justify-content: center;
+    align-content: center;
 }
 
-.formulario h2 {
-    font-size: 30px;
-    text-align: center;
+.form-titulo {
+    background-color: #CFFF00;
+    grid-area: form-titulo;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.formulario form p {
-    font-size: 16px;
-    text-align: center;
+.box-data {
+    background-color: #CFFF00;
+    grid-area: box-data;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .625rem;
+    padding: 0% 3.125rem;
 }
 
-.boton-formulario {
+.box-data input {
+    height: 2.5rem;
+}
+
+.box-email {
+    background-color: #CFFF00;
+    grid-area: box-email;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .625rem;
+    padding: 0% 3.125rem;
+}
+
+.box-email input {
+    height: 2.5rem;
+}
+
+.box-consulta {
+    background-color: #CFFF00;
+    grid-area: box-consulta;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .625rem;
+    padding: 0% 3.125rem;
+}
+
+.box-consulta input {
+    height: 9.375rem;
+}
+
+.form-suscrip {
+    background-color: #CFFF00;
+    grid-area: form-suscrip;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: .625rem;
+    padding: 0% 3.125rem;
+}
+
+.boton-enviar {
+    background-color: #CFFF00;
+    grid-area: boton-enviar;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.boton-enviar input {
     font-family: 'Montserrat', sans-serif;
     background-color: #000000;
     color: #ffffff;
     text-decoration: none;
     border: none;
-    width: 4.0625rem;
-    height: 1.875rem;
+    width: 8.125rem;
+    height: 2.5rem;
+    border-radius: .625rem;
 }
 
-.ubicacion div h2 {
+.ubicacion {
+    width: 100%;
+    height: 21.875rem;
+    display: grid;
+    grid-template-columns: repeat(5, 12.0625rem);
+    grid-template-rows: repeat(3, 6.25rem);
+    grid-template-areas: 
+    "ubicacion-title ubicacion-title ubicacion-maps ubicacion-maps ubicacion-maps"
+    "ubicacion-title ubicacion-title ubicacion-maps ubicacion-maps ubicacion-maps"
+    "ubicacion-title ubicacion-title ubicacion-maps ubicacion-maps ubicacion-maps"
+    ;
+    justify-content: center;
+    align-content: center;
+    column-gap: .625rem;
+}
+
+.ubicacion-title {
     font-family: 'Montserrat', sans-serif;
     background-color: #000000;
     color: #ffffff;
     font-size: 30px;
+    grid-area: ubicacion-title;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.ubicacion-maps {
+    grid-area: ubicacion-maps;
+    width: 100%;
 }

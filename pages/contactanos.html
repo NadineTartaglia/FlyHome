@@ -30,36 +30,37 @@
     </header>
 
     <main>
-
-        <section class="formulario">
-            <h2>¡CONTACTATE CON NOSOTROS!</h2>
-            <form action="#" method="get" enctype="text/plain">
-                <p>Nombre y Apellido</p>
-                <input type="text" placeholder="" name="Nombre y Apellido" required>
-                <p>Correo electrónico</p>
-                <input type="email" placeholder="" name="Correo electrónico" required>
-                <p>Dejanos tu consulta</p>
-                <input type="text" placeholder="" name="Escribinos tu consulta" required>
-
-                <p>¿Queres suscribirte para recibir novedades?</p>
-                <input type="checkbox" name="suscribirte" value="Si">
-
-                <input class=boton-formulario type="submit" value="ENVIAR">
-
+            <form class="formulario" action="#" method="get" enctype="text/plain">
+                <section class="form-titulo">
+                    <h2>¡CONTACTATE CON NOSOTROS!</h2>
+                </section>
+                <div class="box-data">
+                    <p>Nombre y Apellido</p>
+                    <input type="text" placeholder="" name="Nombre y Apellido" required>
+                </div>
+                <div class="box-email">
+                    <p>Correo electrónico</p>
+                    <input type="email" placeholder="" name="Correo electrónico" required>
+                </div>
+                <div class="box-consulta">
+                    <p>Dejanos tu consulta</p>
+                    <input type="text" placeholder="" name="Escribinos tu consulta" required>
+                </div>
+                <div class="form-suscrip">
+                    <p>¿Queres suscribirte para recibir novedades?</p>
+                    <input type="checkbox" name="suscribirte" value="Si">
+                </div>
+                <div class=boton-enviar>
+                    <input type="submit" value="ENVIAR">
+                </div>
             </form>
-        </section>
-
 
         <section class="ubicacion">
-            <div>
-                <h2>DONDE ENCONTRARNOS</h2>
-            </div>
-            <div>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.3861798356593!2d7.675630575286317!3d45.07796145912772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d751570c387%3A0x8b0ce8bdc8a1ac80!2sAnagrafe%20Centrale%20Comune%20di%20Torino!5e0!3m2!1ses!2sar!4v1702141222353!5m2!1ses!2sar"
-                    width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+            <h2 class="ubicacion-title">DONDE ENCONTRARNOS</h2>
+            <iframe class="ubicacion-maps"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.3861798356593!2d7.675630575286317!3d45.07796145912772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d751570c387%3A0x8b0ce8bdc8a1ac80!2sAnagrafe%20Centrale%20Comune%20di%20Torino!5e0!3m2!1ses!2sar!4v1702141222353!5m2!1ses!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
 
